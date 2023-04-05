@@ -1,0 +1,16 @@
+.ant-tag {
+  border: 1px solid var(--blue-normal) !important;
+  padding: 4px !important;
+  font-size: 14px !important;
+  color: var(--blue-normal) !important;
+  background-color: var(--white);
+}
+
+.ant-tag .anticon {
+  color: var(--blue-normal);
+}
+
+.ant-tag svg {
+  width: 14px;
+  height: 14px;
+}

@@ -1,0 +1,38 @@
+.searchbar {
+  margin-left: 0.33cm;
+  margin-top: 0.33cm;
+  margin-right: 0.33cm;
+
+  display: flex;
+}
+
+.searchbar-btn {
+  background-color: var(--light-gray);
+  color: var(--blue-normal);
+  font-weight: bold;
+  font-size: 25pt;
+}
+
+.searchbar-btn-secundary {
+  background-color: var(--light-gray);
+  color: var(--blue-normal);
+  font-weight: normal;
+  font-size: 25pt;
+}
+
+.searchbar-btn.ant-tooltip-disabled-compatible-wrapper {
+  font-size: unset;
+}
+
+.searchbar-btn svg {  
+  color: var(--blue-normal);
+  width: 25pt;
+}
+
+.searchbar > * {
+  margin-left: 8pt;
+}
+
+.searchbar .ant-input-search {
+  margin-left: 0pt;
+}

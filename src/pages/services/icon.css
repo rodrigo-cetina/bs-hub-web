@@ -1,0 +1,15 @@
+.icon-column {
+  padding: 6pt;
+}
+
+.icon-column > .icon-container {
+  width: 100%;
+  height: 100%;
+  padding: 6pt;  
+  border-radius: 6pt;
+  background-color: var(--light-gray);
+}
+
+.icon-selected {
+  border: 2px solid var(--dark-blue);
+}

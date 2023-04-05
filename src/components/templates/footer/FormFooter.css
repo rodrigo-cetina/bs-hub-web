@@ -1,0 +1,6 @@
+.FormFooter {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25pt;
+  margin-bottom: 25pt;
+}

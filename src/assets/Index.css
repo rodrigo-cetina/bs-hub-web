@@ -1,0 +1,60 @@
+@import "~antd/dist/antd.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definición de fuentes */
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: 15pt;
+}
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: 25pt;
+}
+
+:root {
+  --font-family:  sans-serif;
+
+  --white: #ffffff;
+
+  --blue-king: #061140;
+  --dark-blue: #2a5279;
+  --blue-normal: #248fcb;
+  
+  --blue-hover: #7febff;
+  --blue-hover-light: #bff5ff;
+
+  --gray-blueish: #c3dbe8;
+  --gray-blueish-light: #c3dbe880;
+
+  --semi-dark-grey: #c5c5c5;
+  --light-gray: #f0f0f0;
+  --dark-grey: #8f8f8f;
+}
+
+body {
+  font-family: 'Montserrat-Medium' !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.title {
+  font-family: 'Montserrat-Bold' !important;
+}
+
+.ant-btn-primary {
+  background-color: var(--blue-normal);
+}

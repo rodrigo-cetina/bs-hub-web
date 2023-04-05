@@ -1,0 +1,12 @@
+.layout {
+  width: calc(100vw -3mm);
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: 140px 1fr 1fr;
+  grid-template-rows: 60px 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "aside main main"
+    "aside main main";
+}

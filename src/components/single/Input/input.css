@@ -1,0 +1,13 @@
+.input-k{
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.ant-form-item-label > label {
+  font-weight: bold !important;
+  color: var(--dark-grey) !important;
+}
+
+.ant-input {
+  border: 2px solid black;
+}

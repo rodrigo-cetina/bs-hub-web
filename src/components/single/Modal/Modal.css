@@ -1,0 +1,267 @@
+  .ant-modal.personal-modal.map-modal {
+    top:25%;
+  }
+
+  .ant-modal-mask {
+    z-index: 1000 !important;
+    opacity: 0;
+  }
+
+  .ant-modal-wrap {
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 1000 !important;
+  }
+  .ant-modal-content {
+    border-radius: 25px !important;
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 0.35),
+    0 6px 3px rgba(0, 0, 0, 0.21) !important;
+    border-width: 2px !important;
+    border-color: black !important;
+  }
+
+  .ant-modal.personal-modal.big-modal {
+    top: 0%;
+    width: 100% !important;
+  }
+  
+  .ant-modal-close-x,
+  .ant-modal-close-icon {
+    display:none !important; 
+  }
+  .ant-modal-confirm-body > .anticon {
+    display: none;
+  }
+  
+  .ant-modal-confirm-content span[role="img"] {
+    display: unset;
+    margin-left: 42%;
+  }
+  
+  .ant-modal-confirm-content span[role="img"] svg {
+    width: 12%;
+    height: 12%;
+  }
+  
+  .ant-modal-body {
+    padding-top: 5% !important;
+  }
+  
+  .ant-modal-confirm-title {
+    font-weight: bold !important;
+    font-size: var(--font-medium-size) !important;
+    color: var(--grey-hover) !important;
+    padding-left: 5%;
+    margin-top: 0% !important;
+   
+    padding-bottom: 5% !important;
+    border-bottom-color: var(--light-gray);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+  
+  .personal-modal .ant-modal-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  
+  .ant-modal-confirm-content {
+    margin-top: 5% !important;
+    margin-left: 0% !important;
+    padding-left: 5% !important;
+    padding-right: 5%;
+  
+    padding-bottom: 5%;
+    border-bottom: transparent;
+  }
+
+  .ant-modal-confirm-content > .content-box {
+    margin: 0 auto !important;
+    text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+  }
+  
+  /**
+  * Otras modales
+  */
+  .ant-modal-content .ant-modal-footer {
+    text-align: center;
+  }
+
+  /*#region botones modal*/
+  
+  .ant-modal-confirm-btns {
+    float: unset !important;
+    border-top-color: black !important;
+    border-top-width: 10px !important;
+    text-align: center !important;
+  }
+  
+  .ant-modal-confirm-btns > button {
+    float: none;
+    margin: 0 auto !important;
+    width: 30%;
+    border-radius: 5px;
+  }
+  
+  .ant-modal-confirm-btns > button > span {
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+  
+  .ant-modal-confirm-btns .btn-cancel {
+    background-color: var(--light-gray);
+    color: var(--blue-normal);
+    border-color: var(--light-gray);
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: none;
+    outline: rgba(0, 0, 0, 0) solid 2px !important;
+  }
+
+  .ant-modal-confirm-btns .btn-cancel:hover {
+    color: var(--blue-normal);
+    border-color: #d9d9d9;
+    border-style: solid;
+  }
+
+  .confirm-personal-modal .ant-modal-confirm-body-wrapper > .ant-modal-confirm-btns > button:first-child {
+    margin-right: 10% !important;
+  }
+
+  .ant-modal-confirm-btns > button:last-child {
+    background-color: var(--blue-normal);
+    border-color: var(--blue-normal);
+    color: var(--white);
+  }
+
+  .ant-modal-confirm-btns > button:last-child:hover {
+    background-color: var(--blue-hover);
+    border-color: var(--blue-hover);
+    color: var(--white);
+  }
+  
+  /*Cuando sea un modal de success y solo tiene un botón de aceptar*/
+  .ant-modal-confirm-success .ant-modal-confirm-btns,
+  .ant-modal-confirm-error .ant-modal-confirm-btns
+  .ant-modal-confirm-warning .ant-modal-confirm-btns {
+    --margin-left: 28% !important;
+    float: unset !important;
+  }
+  
+  .ant-modal-confirm-content .anticon-check-circle {
+    color: var(--green-success) !important;
+  }
+  
+  .ant-modal-confirm-content .anticon-close-circle {
+    color: var(--red-danger) !important;
+  }
+
+  .ant-modal-confirm-content .anticon-warning {
+    color: var(--red-danger) !important;
+  }
+
+  /**
+  Modal sencilla
+  */
+
+  /**Cuerpo*/
+
+  .ant-modal-body > .content-box {
+    margin: 0 auto !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+  }
+  
+  /**Footer del modal*/
+  .ant-modal-footer {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+
+  .ant-modal-footer > button {
+    width: 30%;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+
+  .ant-modal-footer > button > span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .ant-modal-footer > button:last-child {
+    background-color: var(--blue-normal);
+    border-color: var(--blue-normal);
+    color: var(--white);
+  }
+
+  .ant-modal-footer > button:last-child:hover {
+    background-color: var(--blue-hover);
+    border-color: var(--blue-hover);
+    color: var(--white);
+  }
+
+  /*Pantalla completa*/
+
+  .ant-modal.fullscreen {
+    top: 0;
+    padding-top: 3mm;
+    padding-bottom: 3mm;
+    height: 100%;
+    width: 100% !important;
+  }
+
+  .ant-modal.fullscreen .ant-modal-body {
+    padding-top: 0 !important;
+  }
+
+  .ant-modal.fullscreen > .ant-modal-content {
+    height: 100%;
+  }
+
+  .ant-modal.fullscreen.no-footer .ant-modal-footer {
+    display: none;
+  }
+
+  .ant-modal.fullscreen.no-footer .ant-modal-body,
+  .ant-modal.fullscreen.no-footer .content-box {
+    height: 100%;
+  }
+
+  .ant-modal.ant-modal.fullscreen.flex-content .ant-modal-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ant-modal.ant-modal.fullscreen.flex-content .ant-modal-body,
+  .ant-modal.ant-modal.fullscreen.flex-content .ant-modal-body > .content-box {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
+
+  .custom-modal-container{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+  

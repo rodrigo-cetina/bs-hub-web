@@ -1,0 +1,10 @@
+.ant-collapse-header {
+  background-color: var(--blue-normal);
+}
+
+.ant-collapse-header-text,
+.ant-collapse-expand-icon,
+.ant-collapse-expand-icon .anticon svg {
+  color: var(--white);
+  font-weight: bold;
+}

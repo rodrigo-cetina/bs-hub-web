@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="24px"
+    height="24px"
+    viewBox="0 0 5.76 5.76">
+<defs/>
+<rect id="shape0" transform="matrix(0.999999960263572 0 0 0.918674796415965 -5.00653996128193e-08 1.24900085307247e-16)" fill="#f35325" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" width="2.64000018774526" height="2.87370464834252"/>
+<rect id="shape01" transform="matrix(0.999999920527145 0 0 0.91867475991111 3.11223945324221 0.00114964289600684)" fill="#81bc06" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" width="2.64000018774526" height="2.87370464834252"/>
+<rect id="shape02" transform="matrix(0.999999928802919 0 0 0.918674767513855 0.00388034986234934 3.12005735738164)" fill="#05a6f0" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" width="2.64000018774526" height="2.87370464834252"/>
+<rect id="shape01" transform="matrix(0.999999889066494 0 0 0.918674731009001 3.11611975525687 3.12120700024148)" fill="#ffba08" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" width="2.64000018774526" height="2.87370464834252"/>
+</svg>

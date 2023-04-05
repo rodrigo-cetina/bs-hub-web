@@ -1,0 +1,31 @@
+.title {
+  font-family: 'Montserrat-Bold';
+  font-size: 25pt;
+  text-align: center;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+}
+
+.title.form {
+  text-align: start;
+}
+
+.title.expand {
+  margin-top: 2pt;
+  margin-bottom: 2pt;
+  text-align: start;
+  font-size: 15pt;
+  text-decoration: underline;
+}
+
+.title .ant-btn {
+  margin-right: 25pt;
+  color: var(--blue-normal);
+  border: none;
+  transform: scaleY(-1);
+  vertical-align: middle;
+}
+
+.title .anticon {
+  font-size: 25pt;
+}

@@ -1,0 +1,38 @@
+.permissionList .ant-list-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.permissionList .ant-list-items {
+  border: 1px solid #d9d9d9;
+}
+
+.permissionList .ant-list-items > li {
+  padding: 4px 11px;
+  display: flex;
+}
+
+.permissionList .ant-list-items > li:hover {
+  background-color: var(--gray-blueish-light);
+}
+
+.permission-list-item {
+  overflow: hidden;
+  transition: all 0.5s ease-in-out
+}
+
+.permission-list-item.expanded {
+  transition: all 0.5s ease-in-out;
+}
+
+.permission-list-item > *:last-child {
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.permission-list-item:last-child > *:last-child {
+  border-bottom: none !important;
+}
+
+.permission-list-sub-item {
+  padding: 4px 11px !important;
+}

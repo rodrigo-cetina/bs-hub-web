@@ -1,0 +1,43 @@
+.ant-input-search {
+  background: var(--light-gray);
+}
+
+.ant-input-search .ant-input,
+.ant-input-search .-ant-input-group-addon,
+.ant-input-search button {
+  background: unset;
+}
+
+.ant-input-search .ant-input,
+.ant-input-search .ant-input:focus,
+.ant-input-search .ant-input:hover {
+  border-color: transparent !important;
+  border: 0px solid transparent;
+  box-shadow: none !important;
+  border-right-width: 0px !important;
+}
+
+.ant-input-search .ant-input::placeholder {
+  color: black !important;
+  font-weight: bold;
+}
+
+.ant-input-search button {
+  color: black !important;
+  background-color: var(--light-gray) !important;
+}
+
+.ant-input-search .ant-btn,
+.ant-input-search .ant-btn:hover {
+  box-shadow: unset !important;
+  border: 0px transparent;
+}
+
+.ant-select-arrow {
+  color: var(--dark-grey) !important;
+  font-weight: bold;
+}
+
+.ant-select-arrow .anticon {
+  font-size: 15pt;
+}

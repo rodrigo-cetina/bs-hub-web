@@ -1,0 +1,18 @@
+.input-config-label {
+  font-weight: bold;
+  color: var(--dark-grey);
+}
+
+.ant-row.input-config-bordered {
+  margin-top: 12px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
